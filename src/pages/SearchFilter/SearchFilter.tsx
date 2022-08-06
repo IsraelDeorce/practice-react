@@ -1,6 +1,7 @@
 /*
 1. Build Search filter in React
-React code to build a simple search filter functionality to display a filtered list based on the search query entered by the user.
+React code to build a simple search filter functionality to display a
+filtered list based on the search query entered by the user.
 
 The following are the steps to create a Search filter using React JS:
 

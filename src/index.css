@@ -17,3 +17,25 @@ nav {
   padding-bottom: 10px;
   border-bottom: 5px solid black;
 }
+
+button {
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #3065AC;
+  color: white;
+}
+.primary:hover {
+  background-color: #126fe9;
+  color: white;
+}
+
+.negative {
+  background-color: #C23B22;
+  color: white;
+}
+.negative:hover {
+  background-color: #ee3110;
+  color: white;
+}

@@ -6,7 +6,8 @@ function Main() {
       <h1>Chosse the exercise below</h1>
       <nav>
         <Link to="/">Home</Link> |{" "}
-        <Link to="search-filter">SearchFilter</Link>
+        <Link to="search-filter">Search Filter</Link> |{" "}
+        <Link to="simple-counter">Simple Counter</Link>
       </nav>
       <div>
         <Outlet />

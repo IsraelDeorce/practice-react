@@ -1,0 +1,14 @@
+.SimpleCounter {
+  display: flex;
+  flex-direction: column;
+}
+
+.SimpleCounter > * {
+  margin-bottom: 10px;
+  width: fit-content;
+}
+
+.SimpleCounter button {
+  padding: 5px;
+  min-width: 200px;
+}
