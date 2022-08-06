@@ -1,0 +1,8 @@
+.SearchFilter > * {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.SearchFilter .filter {
+  padding: 5px;
+}
