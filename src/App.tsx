@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import SearchFilter from "./pages/SearchFilter/SearchFilter";
 import SimpleCounter from "./pages/SimpleCounter/SimpleCounter";
 import DisplayList from "./pages/DisplayList/DisplayList";
+import Accordion from "./pages/Accordion/Accordion";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
           <Route index element={<Home />} />
           <Route path="search-filter" element={<SearchFilter />} />
           <Route path="simple-counter" element={<SimpleCounter />} />
-          <Route path="display-list" element={<DisplayList />} />
+          <Route path="display-list" element={<DisplayList />} />Accordion
+          <Route path="accordion" element={<Accordion />} />
         </Route>
       </Routes>
     </Router>

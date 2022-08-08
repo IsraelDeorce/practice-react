@@ -8,7 +8,8 @@ function Main() {
         <Link to="/">Home</Link> |{" "}
         <Link to="search-filter">Search Filter</Link> |{" "}
         <Link to="simple-counter">Simple Counter</Link> |{" "}
-        <Link to="display-list">Display a List</Link>
+        <Link to="display-list">Display a List</Link> |{" "}
+        <Link to="accordion">Accordion</Link>
       </nav>
       <div>
         <Outlet />

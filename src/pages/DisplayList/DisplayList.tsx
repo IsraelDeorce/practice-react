@@ -10,7 +10,6 @@ The list of items is displayed using React JS through the following steps:
 */
 
 import { useState } from 'react';
-import './DisplayList.css';
 
 function DisplayList() {
   const [blogs] = useState([

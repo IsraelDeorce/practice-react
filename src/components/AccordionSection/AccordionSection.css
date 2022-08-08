@@ -1,0 +1,28 @@
+.accordion-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-section > * {
+  padding: 0 10px;
+}
+
+.accordion-title {
+  display: flex;
+  align-items: center;
+  background-color: #DCDCDC;
+}
+
+.accordion-title h2 {
+  flex: 1;
+}
+
+.accordion-icon {
+  font-size: 32px;
+  padding-bottom: 8px;
+}
+
+.accordion-content {
+  background-color: #EDEDED;
+  transition: visibility 0s, opacity 0.5s linear;
+}
