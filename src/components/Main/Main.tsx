@@ -11,7 +11,8 @@ function Main() {
         <Link to="display-list">Display a List</Link> |{" "}
         <Link to="accordion">Accordion</Link> |{" "}
         <Link to="image-slider">Image Slider</Link> |{" "}
-        <Link to="Checklist">Checklist</Link>
+        <Link to="Checklist">Checklist</Link> |{" "}
+        <Link to="simple-login-form">Simple Login Form</Link>
       </nav>
       <div>
         <Outlet />

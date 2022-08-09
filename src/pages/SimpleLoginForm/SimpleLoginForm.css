@@ -1,0 +1,9 @@
+.SimpleLoginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.SimpleLoginForm > * {
+  width: fit-content;
+  margin-bottom: 5px;
+}
