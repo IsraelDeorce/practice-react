@@ -9,7 +9,8 @@ function Main() {
         <Link to="search-filter">Search Filter</Link> |{" "}
         <Link to="simple-counter">Simple Counter</Link> |{" "}
         <Link to="display-list">Display a List</Link> |{" "}
-        <Link to="accordion">Accordion</Link>
+        <Link to="accordion">Accordion</Link> |{" "}
+        <Link to="image-slider">ImageSlider</Link>
       </nav>
       <div>
         <Outlet />

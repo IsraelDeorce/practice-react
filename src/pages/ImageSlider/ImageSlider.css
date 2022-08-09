@@ -1,0 +1,15 @@
+.ImageSlider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-left-arrow {
+  position: relative;
+  left: 40px;
+}
+
+.slider-right-arrow {
+  position: relative;
+  right: 40px;
+}

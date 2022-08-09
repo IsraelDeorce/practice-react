@@ -5,6 +5,7 @@ import SearchFilter from "./pages/SearchFilter/SearchFilter";
 import SimpleCounter from "./pages/SimpleCounter/SimpleCounter";
 import DisplayList from "./pages/DisplayList/DisplayList";
 import Accordion from "./pages/Accordion/Accordion";
+import ImageSlider from "./pages/ImageSlider/ImageSlider";
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
           <Route index element={<Home />} />
           <Route path="search-filter" element={<SearchFilter />} />
           <Route path="simple-counter" element={<SimpleCounter />} />
-          <Route path="display-list" element={<DisplayList />} />Accordion
+          <Route path="display-list" element={<DisplayList />} />
           <Route path="accordion" element={<Accordion />} />
+          <Route path="image-slider" element={<ImageSlider />} />
         </Route>
       </Routes>
     </Router>
