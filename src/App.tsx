@@ -6,6 +6,7 @@ import SimpleCounter from "./pages/SimpleCounter/SimpleCounter";
 import DisplayList from "./pages/DisplayList/DisplayList";
 import Accordion from "./pages/Accordion/Accordion";
 import ImageSlider from "./pages/ImageSlider/ImageSlider";
+import Checklist from "./pages/Checklist/Checklist";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="display-list" element={<DisplayList />} />
           <Route path="accordion" element={<Accordion />} />
           <Route path="image-slider" element={<ImageSlider />} />
+          <Route path="Checklist" element={<Checklist />} />
         </Route>
       </Routes>
     </Router>
