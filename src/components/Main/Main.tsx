@@ -12,7 +12,8 @@ function Main() {
         <Link to="accordion">Accordion</Link> |{" "}
         <Link to="image-slider">Image Slider</Link> |{" "}
         <Link to="Checklist">Checklist</Link> |{" "}
-        <Link to="simple-login-form">Simple Login Form</Link>
+        <Link to="simple-login-form">Simple Login Form</Link> |{" "}
+        <Link to="api-request">API Request</Link>
       </nav>
       <div>
         <Outlet />

@@ -8,6 +8,7 @@ import Accordion from "./pages/Accordion/Accordion";
 import ImageSlider from "./pages/ImageSlider/ImageSlider";
 import Checklist from "./pages/Checklist/Checklist";
 import SimpleLoginForm from "./pages/SimpleLoginForm/SimpleLoginForm";
+import APIRequest from "./pages/APIRequest/APIResquest";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="image-slider" element={<ImageSlider />} />
           <Route path="Checklist" element={<Checklist />} />
           <Route path="simple-login-form" element={<SimpleLoginForm />} />
+          <Route path="api-request" element={<APIRequest />} />
         </Route>
       </Routes>
     </Router>
